@@ -15,14 +15,17 @@ function walkToPark(dogName, dogBreed) {
 
 function throwFrisbee(dogName, dogBreed) {
     console.log(`throw frisbee to ${dogName}`);
+    return `throw frisbee to ${dogName}`
 }
 
 function walkHome(dogName, dogBreed) {
     console.log(`Walk ${dogName} back home`);
+    return `Walk ${dogName} back home`
 }
 
 function unleashDog(dogName, dogBreed) {
     console.log(`take leash off ${dogName}`);
+    return `take leash off ${dogName}`
 }
 
  const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
