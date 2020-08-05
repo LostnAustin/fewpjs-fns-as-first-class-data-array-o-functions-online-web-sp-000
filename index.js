@@ -5,10 +5,12 @@ function wakeDog(dogName, dogBreed) {
 
 function leashDog(dogName, dogBreed) {
   console.log(`put leash on ${dogName}`);
+  return `put leash on ${dogName}`
 }
 
 function walkToPark(dogName, dogBreed) {
     console.log(`walk ${dogName} to park` );
+    return `walk ${dogName} to park`
 }
 
 function throwFrisbee(dogName, dogBreed) {
