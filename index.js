@@ -25,7 +25,7 @@ function walkHome(dogName, dogBreed) {
 
 function unleashDog(dogName, dogBreed) {
     console.log(`take leash off ${dogName}`);
-    return `take leash off ${dogName}`
+    return `Unleash ${dogName} the ${dogBreed}`
 }
 
  const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
