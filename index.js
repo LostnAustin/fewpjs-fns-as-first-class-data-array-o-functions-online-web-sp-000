@@ -7,7 +7,7 @@ function leashDog(dogName, dogBreed) {
 }
 
 function walkToPark(dogName, dogBreed) {
-    console.log(`walk ${dogName}` to park);
+    console.log(`walk ${dogName} to park` );
 }
 
 function throwFrisbee(dogName, dogBreed) {
@@ -19,5 +19,5 @@ function walkHome(dogName, dogBreed) {
 }
 
 function unleashDog(dogName, dogBreed) {
-    console.log(`put leash on ${dogName}`);
+    console.log(`take leash off ${dogName}`);
 }
